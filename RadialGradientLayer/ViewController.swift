@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     var gradientLayer: CAGradientLayer {
         let gradientLayer = CAGradientLayer()
-        gradientLayer.type = .radial
+        gradientLayer.type = .radial //introduced in iOS 13
         gradientLayer.colors = [innerColor, outerColor]
         gradientLayer.frame = self.view.bounds
         gradientLayer.locations = [0, 0.9, 1]
