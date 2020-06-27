@@ -5,5 +5,5 @@ iOS 13 or later
 UIKit
 Swift 5
 
-### Useage:
+### Usage:
 Just clone the repo and run the project!
