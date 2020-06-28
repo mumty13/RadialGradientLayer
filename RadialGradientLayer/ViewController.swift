@@ -28,15 +28,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setGradientBackground()
+    }
+
     func setGradientBackground() {
         self.view.layer.insertSublayer(gradientLayer, at:0)
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        setGradientBackground()
-        super.viewWillAppear(animated)
-    }
-
 
 }
 
